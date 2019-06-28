@@ -13,6 +13,7 @@ app.on('window-all-closed', () => {
 app.on('ready', () => {
     mainWindow = new BrowserWindow();
     //mainWindow.loadURL(`file://${__dirname}/index.html`);
-    mainWindow.loadURL('http://www.baidu.com');
+    //mainWindow.loadURL('http://www.baidu.com');
+    mainWindow.loadURL('http://pms.tianehui.net/base/');
     mainWindow.on('closed', () => { mainWindow = null; });
 });
